@@ -1,0 +1,33 @@
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    background-color: rgba(128, 128, 128, 0.266);
+}
+
+.item-menu{
+    padding: 20px;
+    
+}
+
+.item-menu a{
+    text-decoration: none;
+}
+
+.line{
+    background-color: black;
+    height: 3px;
+    width: 1110px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.logo{
+    margin-top: 30px;
+    width: 40px;
+    height: 40px;
+}

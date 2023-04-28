@@ -1,0 +1,7 @@
+header{
+    display: flex;
+}
+
+.menu{
+    justify-content: end;
+}

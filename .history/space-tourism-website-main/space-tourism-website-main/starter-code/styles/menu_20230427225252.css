@@ -1,0 +1,25 @@
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+}
+
+.item-menu{
+    padding: 20px;
+    
+}
+
+.item-menu a{
+    text-decoration: none;
+}
+
+.line{
+    background-color: black;
+    height: 10px;
+    width: 1110px;
+    ma
+}

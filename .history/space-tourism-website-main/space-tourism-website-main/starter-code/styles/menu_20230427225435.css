@@ -1,0 +1,32 @@
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    background-color: gray;
+}
+
+.item-menu{
+    padding: 20px;
+    
+}
+
+.item-menu a{
+    text-decoration: none;
+}
+
+.line{
+    background-color: black;
+    height: 3px;
+    width: 1110px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.logo{
+    width: 20px;
+    height: 20px;
+}

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200&display=swap');
+/*  font-family: 'Barlow', sans-serif;
+    font-family: 'Heebo', sans-serif;
+*/
+
+:root{
+    --title-font: 'Barlow';
+    --paragraph-font: 'Heebo';
+}
+
+.text-box{
+    margin-top: 200px;
+    padding: 30px;
+    margin-left: 100px;
+    width: 30vw;
+    background-color: gray;
+    color: white;
+}
+
+span{
+    font-family: var(--paragraph-font);
+    font-size: 22px;
+}
+
+h1{
+    font-family: var(--title-font);
+}
