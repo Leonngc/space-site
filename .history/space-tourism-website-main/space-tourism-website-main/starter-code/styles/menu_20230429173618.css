@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    margin-top: 20px;
+    display: flex;
+    width: 90vw ;
+    height: 12vh;
+    position: relative;
+    justify-content: space-between;
+    list-style: none;
+    background: rgba(255, 255, 255, 0.21);
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.item-menu{
+    margin: auto;
+ 
+}
+
+.item-menu a{
+    text-decoration: none;
+    font-family: 'Heebo', sans-serif;
+    color: white;
+}
+
+.active{
+  border-bottom: 3px solid white;
+}
+
+.line{
+    background-color:  rgba(255, 255, 255, 0.21);
+
+    height: 2px;
+    width: 1110px;
+    margin-top: 68px;
+    margin-left: 30px;
+}
+
+.logo{
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+    padding: 20px;
+}
+
+@media screen and (max-width: 900px){
+    .menu{
+        display: none;
+    }
+
+    .line{
+        display: none;
+    }
+
+    body{
+        background-image: url(../assets/home/background-home-mobile.jpg) !important;
+    }
+
+   /* Esconder o menu por padrão */
+.menu {
+    display: none;
+  }
+  
+  /* Estilo do botão do menu */
+  .menu-toggle {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    z-index: 1;
+  }
+  .menu-toggle:focus {
+    outline: none;
+  }
+  
+  /* Ícone do menu hamburguer */
+  .hamburger {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: #fafafa;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: transform 0.3s ease-in-out;
+  }
+  .hamburger:before,
+  .hamburger:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #faf9f9;
+    position: absolute;
+    transition: transform 0.3s ease-in-out;
+  }
+  .hamburger:before {
+    transform: translateY(-10px);
+  }
+  .hamburger:after {
+    transform: translateY(10px);
+  }
+  
+  /* Animação do menu hamburguer quando aberto */
+  .menu-toggle[aria-expanded="true"] .hamburger {
+    background-color: #fafafa00;
+  }
+  .menu-toggle[aria-expanded="true"] .hamburger:before {
+    transform: translateY(0) rotate(45deg);
+  }
+  .menu-toggle[aria-expanded="true"] .hamburger:after {
+    transform: translateY(0) rotate(-45deg);
+  }
+}  
