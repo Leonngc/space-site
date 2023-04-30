@@ -62,7 +62,7 @@ p{
 
 @media screen and (max-width: 990px){
     body{
-        background-image: url(../../starter-code/assets/home/background-home-mobile.jpg);
+        background-image: url(../);
     }
     .text-box{
        position: absolute;

@@ -34,4 +34,4 @@ const mobileNavbar = new MobileNavbar(
 mobileNavbar.init()
 
 
-alert('mudou!')
+alert('mudou')
