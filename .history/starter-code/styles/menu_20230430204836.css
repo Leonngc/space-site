@@ -76,9 +76,7 @@ ul li > a:hover{
         display: none;
     }
 
-    body{
-        overflow-x:hidden ;
-    }
+
     .menu{
         position: absolute;
         right: 0;
