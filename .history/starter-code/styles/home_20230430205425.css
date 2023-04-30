@@ -63,7 +63,6 @@ p{
 @media screen and (max-width: 990px){
     body{
         background-image: url(../../starter-code/assets/home/background-home-mobile.jpg);
-        overflow-x: hidden;
     }
     .text-box{
        position: absolute;
@@ -72,6 +71,7 @@ p{
        margin: auto;
        text-align: center;
        z-index: 700;
+       overflow-x: hidden;
     }
     
 
