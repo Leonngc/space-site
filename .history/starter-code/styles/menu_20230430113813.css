@@ -22,8 +22,8 @@ header{
     height: 12vh;
     position: relative;
     list-style: none;
-    background: rgba(255, 255, 255, 0.21);
-    background: rgba(255, 255, 255, 0.08);
+    background: rgba(18, 13, 13, 0.21);
+    background: rgba(46, 43, 43, 0.802);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
@@ -83,15 +83,14 @@ ul li > a:hover{
         right: 0;
         width: 70vw;
         height: 90vh;
-        z-index: 1000;
         display: flex;
         margin: 0;
         border-top-left-radius: 15px;
         border-bottom-left-radius: 15px;
         transform: translateX(100%);
         transition: transform 0.6s ease-in;
-        background: rgba(0, 0, 0, 0.392);
-        background: rgba(0, 0, 0, 0.545);
+        background: rgba(255, 255, 255, 0.346);
+        background: rgba(0, 0, 0, 0.47);
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
         backdrop-filter: blur(5px);
         -webkit-backdrop-filter: blur(5px);

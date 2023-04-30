@@ -67,12 +67,11 @@ p{
     }
     .text-box{
        position: absolute;
-       width: 80vw;
+       width: 88vw;
        margin-top: 30px;
        margin: auto;
        text-align: center;
     }
-    
 
     h1{
         font-family: var(--paragraph-font);

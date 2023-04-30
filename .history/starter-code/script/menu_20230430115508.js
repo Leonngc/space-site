@@ -5,7 +5,7 @@ class MobileNavbar{
         this.navLink = document.querySelector(navLink);
         this.activeClass = "active";
         this.handleClick = this.handleClick.bind(this)
-        
+        let 
     }
 
     handleClick(){

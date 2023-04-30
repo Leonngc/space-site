@@ -9,8 +9,10 @@ class MobileNavbar{
     }
 
     handleClick(){
+        let text = document.ele('.text-box')
         this.navList.classList.toggle(this.activeClass);
         this.mobileMenu.classList.toggle(this.activeClass)
+        text.style.position = 'relative'
     }
 
     addClickEvent(){

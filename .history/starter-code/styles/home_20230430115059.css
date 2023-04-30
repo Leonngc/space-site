@@ -72,7 +72,10 @@ p{
        margin: auto;
        text-align: center;
     }
-    
+
+    .menu{
+        position: absolute !important;
+    }
 
     h1{
         font-family: var(--paragraph-font);

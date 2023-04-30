@@ -5,12 +5,13 @@ class MobileNavbar{
         this.navLink = document.querySelector(navLink);
         this.activeClass = "active";
         this.handleClick = this.handleClick.bind(this)
-        
+        let text = document.querySelector('.text-box')
     }
 
     handleClick(){
         this.navList.classList.toggle(this.activeClass);
         this.mobileMenu.classList.toggle(this.activeClass)
+        text.style.
     }
 
     addClickEvent(){

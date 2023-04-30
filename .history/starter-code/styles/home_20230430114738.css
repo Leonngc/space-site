@@ -66,13 +66,12 @@ p{
         background-image: url(../assets/home/background-home-desktop.jpg);
     }
     .text-box{
-       position: absolute;
-       width: 80vw;
+       position: static;
+       width: 85vw;
        margin-top: 30px;
        margin: auto;
        text-align: center;
     }
-    
 
     h1{
         font-family: var(--paragraph-font);
