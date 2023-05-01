@@ -1,0 +1,16 @@
+body{
+    background-image: url();
+}
+
+
+
+.carousel-inner  img{
+    margin: 0;
+    width: 320px;
+}
+
+.carousel-inner h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}

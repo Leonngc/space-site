@@ -1,0 +1,11 @@
+.slide-item{
+    display: flex;
+}
+
+.slide-item > div{
+    
+}
+
+.slide-item > img{
+    margin: 0;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+  <link rel="stylesheet" href="starter-code/styles/menu.css">
+  <link rel="stylesheet" href="starter-code/styles/crew.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <script src="starter-code/script/menu.js" defer></script>
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+<body>
+
+  <header>
+    <a href="index.html" target="_parent"><img src="starter-code/assets/shared/logo.svg" alt="" class="logo"></a>
+
+    <div class="line"></div>
+    <nav>
+      <button class="menu-button"><i class="fi fi-br-menu-burger"></i></button>
+      <ul class="menu">
+      <li class="item-menu"><a href="index.html" target="_parent">00 Home</a></li>
+      <li class="item-menu"><a href="destination-moon.html" target="_blank">01 Destino</a></li>
+      <li class="item-menu page-active"><a href="#">02 Equipe</a></li>
+      <li class="item-menu"><a href="#">03 Technology</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <h1><strong>02</strong> Conheça a tripulação</h1>
+
+  <div id="carouselExampleIndicators" class="carousel slide" style="margin-top: 100px; margin-bottom: 100px;">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="starter-code/assets/crew/image-anousheh-ansari.png" class="d-flex w-5" alt="...">
+        <div class="text-box">
+          <h2>Engenheira Aeronáutica</h2>
+          <h3>Anousheh Ansari</h3>
+
+          <p>
+            Anousheh Ansari é uma engenheira americana de origem iraniana e co-fundadora da Prodea Systems. Ansari foi a quarta turista espacial a financiar sua própria viagem ao espaço, a primeira mulher a financiar sua própria viagem à Estação Espacial Internacional (ISS) e a primeira iraniana no espaço.
+          </p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="starter-code/assets/crew/image-douglas-hurley.png" class="d-flex w-5" alt="...">
+    
+          <div class="text-box">
+            <h2>Comandante</h2>
+            <h3>Douglas Hurley</h3>
+              <p>
+                Douglas Gerald Hurley é um engenheiro, ex-piloto do Corpo de Fuzileiros Navais dos Estados Unidos e ex-astronauta da NASA. Ele foi lançado ao espaço pela terceira vez como comandante da missão Crew Dragon Demo-2.
+              </p>
+          </div>
+      </div>
+      <div class="carousel-item" style="height: 40vh;">
+        <img src="starter-code/assets/crew/image-mark-shuttleworth.png" class="d-flex w-5" alt="...">
+        <div class="text-box">
+          <h2>Especialista em missões</h2>
+          <h3>Mark Shuttleworth</h3>
+          <p>
+            Mark Richard Shuttleworth é o fundador e CEO da Canonical, a empresa por trás do sistema operacional baseado em Linux, o Ubuntu. Shuttleworth se tornou o primeiro sul-africano a viajar para o espaço como turista espacial.
+          </p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="starter-code/assets/crew/image-victor-glover.png" class="d-flex w-5" alt="...">
+        <div class="text-box">
+          <h2>Piloto</h2>
+          <h3>Victor Glover</h3>
+          <p>
+            Piloto do primeiro voo operacional da nave SpaceX Crew Dragon para a Estação Espacial Internacional. Glover é comandante na Marinha dos Estados Unidos, onde pilota um F/A-18. Ele foi membro da tripulação da Expedição 64 e atuou como engenheiro de sistemas de voo da estação.
+          </p>
+        </div>
+      </div>
+      
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+</html>

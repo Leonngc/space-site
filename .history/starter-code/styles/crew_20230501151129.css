@@ -1,0 +1,20 @@
+body{
+    background-image: url(../assets/crew/);
+}
+
+
+
+.slide-item{
+    display: flex;
+}
+
+.slide-item > div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 30vw;
+}
+
+.slide-item > img{
+    margin: 0;
+}

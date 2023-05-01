@@ -1,0 +1,13 @@
+.slide-item{
+    display: flex;
+}
+
+.slide-item > div{
+    position: absolute;
+    top: 50%;
+    width: ;
+}
+
+.slide-item > img{
+    margin: 0;
+}

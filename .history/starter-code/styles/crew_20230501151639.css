@@ -1,0 +1,22 @@
+body{
+    background-image: url(../assets/crew/background-crew-desktop.jpg);
+    background-size: cover;
+    color: white;
+}
+
+
+
+.slide-item > img{
+    margin: 0;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.slide-item{
+   margin-right: 1000px;
+   top: ;
+}
