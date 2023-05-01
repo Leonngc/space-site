@@ -118,7 +118,7 @@ p{
             text-align: center;
         }
 
-        .container-button a > button{
+        .container-button > button{
             width: 200px;
             height: 200px;
             font-size: 28px;
