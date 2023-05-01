@@ -84,7 +84,7 @@ ul li > a:hover{
         right: 0;
         width: 80vw;
         height: 90vh;
-        z-index: 10000;
+    
         display: flex;
         margin: 0;
         border-top-left-radius: 15px;
