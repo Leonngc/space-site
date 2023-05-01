@@ -59,7 +59,7 @@ main{
     border: 1px solid white;
 }
 
-.button-container a > button:not(.button-active):hover{
+.button-container > button:not(.button-active):hover{
     background-color: white;
     color: black;
     transition: .5s;
