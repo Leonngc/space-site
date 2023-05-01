@@ -72,11 +72,7 @@ ul li > a:hover{
     .line{
         display: none;
     }
-    body{
-        overflow-x: hidden;
-        max-width: 100vw;
-        z-index: 20000;
-    }
+
 
     .menu{
         position: absolute;

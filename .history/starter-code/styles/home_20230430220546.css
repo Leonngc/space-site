@@ -85,6 +85,7 @@ p{
             margin-top: 500px;
             width: 60vw;
             text-align: center;
+            overflow-x: hidden !important;
         }
 
         .container-button > button{
