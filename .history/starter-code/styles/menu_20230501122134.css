@@ -10,7 +10,6 @@ header{
     display: flex;
     justify-content: space-between;
     overflow-x: hidden;
-    background-color: red;
 }
 
 .menu{

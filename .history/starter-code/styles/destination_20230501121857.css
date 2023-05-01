@@ -16,7 +16,6 @@
 
 body{
     background-image: url(../assets/destination/background-destination-desktop.jpg);
-    overflow-x: hidden !important;
 }
 
 main{
