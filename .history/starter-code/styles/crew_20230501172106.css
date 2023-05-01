@@ -63,17 +63,14 @@ strong{
 
 @media (max-width: 990px){
     .carousel-inner  img{
-        display: block;
-        width: 250px;
-        height: 300px;
-        margin: auto;
+        position: absolute;
+        width: 120px;
+        height: 200px;
+        top: 30%;
+        left: 50%;
     }
 
     .text-box{
         position: static;
-        width: 90vw;
-        margin: auto;
-        margin-top: 20px;
-        margin-bottom: 35px;
     }
 }

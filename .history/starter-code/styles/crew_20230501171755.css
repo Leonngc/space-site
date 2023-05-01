@@ -62,18 +62,7 @@ strong{
 }
 
 @media (max-width: 990px){
-    .carousel-inner  img{
-        display: block;
-        width: 250px;
-        height: 300px;
-        margin: auto;
-    }
-
-    .text-box{
-        position: static;
-        width: 90vw;
-        margin: auto;
-        margin-top: 20px;
-        margin-bottom: 35px;
+    .carousel-inner > img{
+        width: ;
     }
 }

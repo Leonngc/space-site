@@ -66,14 +66,10 @@ strong{
         display: block;
         width: 250px;
         height: 300px;
-        margin: auto;
+        ma
     }
 
     .text-box{
         position: static;
-        width: 90vw;
-        margin: auto;
-        margin-top: 20px;
-        margin-bottom: 35px;
     }
 }
