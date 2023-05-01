@@ -74,7 +74,8 @@ p{
        margin-top: 30px;
        margin: auto;
        text-align: center;
-       overflow-x: hidden !important;
+       z-index: 700;
+       overflow-x: hidden;
     }
     
 
@@ -88,13 +89,14 @@ p{
             margin-top: 500px;
             width: 60vw;
             text-align: center;
-            overflow-x: hidden !important;
+            overflow-x: hidden;
         }
 
         .container-button > button{
             width: 200px;
             height: 200px;
             font-size: 28px;
+            overflow-x: hidden;
         }
 
 }
