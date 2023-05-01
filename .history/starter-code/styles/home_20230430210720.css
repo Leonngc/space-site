@@ -64,7 +64,6 @@ p{
     body{
         background-image: url(../../starter-code/assets/home/background-home-mobile.jpg);
         overflow-x: hidden;
-        max-width: 100vw;
     }
     .text-box{
        position: absolute;
