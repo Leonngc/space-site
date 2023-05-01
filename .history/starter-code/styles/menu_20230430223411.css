@@ -121,9 +121,6 @@ ul li > a:hover{
 
     ul.active{
         transform: translateX(0);
-    }
-
-    ul.active menu{
-        display: none;
+        me
     }
 }  
