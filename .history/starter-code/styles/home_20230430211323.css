@@ -24,7 +24,6 @@ body{
     width: 30vw;
     color: white;
     z-index: 700;
-    overflow-x: hidden;
 }
 
 span{

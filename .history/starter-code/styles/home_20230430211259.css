@@ -13,7 +13,6 @@ body{
     background-image: url(../assets/home/background-home-desktop.jpg);
     background-size: cover;
     background-position: center center;
-    overflow-x: hidden;
 }
 
 
@@ -24,7 +23,6 @@ body{
     width: 30vw;
     color: white;
     z-index: 700;
-    overflow-x: hidden;
 }
 
 span{
@@ -96,7 +94,6 @@ p{
             width: 200px;
             height: 200px;
             font-size: 28px;
-            overflow-x: hidden;
         }
 
 }
