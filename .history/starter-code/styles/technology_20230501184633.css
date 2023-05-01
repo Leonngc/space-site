@@ -116,13 +116,9 @@ main img{
    }
 
    .text-box{
-    width: 80vw;
+    width: 90vw;
     margin: auto;
     margin-top: 300px;
-   }
-
-   .text-box p{
-    font-size: 22px;
    }
 
    main img{

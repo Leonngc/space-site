@@ -101,10 +101,6 @@ main img{
     padding: 0;
 }
 
-.img-responsive{
-    display: none;
-}
-
 @media (max-width: 999px) {
 
     main{
@@ -112,26 +108,5 @@ main img{
     }
    .button-container{
     flex-direction: row;
-    justify-content: space-around;
-   }
-
-   .text-box{
-    width: 80vw;
-    margin: auto;
-    margin-top: 300px;
-   }
-
-   .text-box p{
-    font-size: 22px;
-   }
-
-   main img{
-    display: none;
-   }
-
-   .img-responsive{
-    display: block;
-    position: absolute;
-    top: 50%;
    }
 }
