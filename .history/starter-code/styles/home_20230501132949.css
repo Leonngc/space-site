@@ -38,7 +38,6 @@ span{
     font-family: var(--paragraph-font);
     font-size: 22px;
     text-transform: uppercase;
-    color: #aeaeae;
 }
 
 h1{
@@ -49,9 +48,9 @@ h1{
 }
 
 p{
-    font-family: var(--paragraph-font), sans-serif;
+    font-family: var(--title-font;
     font-size: 18px;
-    color: #aeaeae;
+    color: #bfbebe;
 }
 
 .container-button{
@@ -84,7 +83,7 @@ p{
  
     .text-box{
         position: absolute;
-        top: 45%;
+        top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         width: 90vw;
