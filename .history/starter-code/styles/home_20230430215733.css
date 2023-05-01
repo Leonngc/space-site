@@ -66,14 +66,18 @@ p{
     body{
         background-image: url(../../starter-code/assets/home/background-home-mobile.jpg);
         overflow-x: hidden;
-        max-width: 100vw;
     }
  
     .text-box{
        position: absolute;
-       text-align: center;
-       width: 80vw;
-       margin: 20px auto;
+       display: flex;
+       flex-wrap: wrap;
+       align-items: center;
+       justify-content: center;
+       margin: auto;
+       padding: 0;
+       width: 10vw;
+       margin: auto;
        overflow-x: hidden !important;
     }
     
