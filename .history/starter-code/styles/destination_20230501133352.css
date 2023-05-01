@@ -147,8 +147,7 @@ strong{
         width: 100vw;
         text-align: center;
         font-size: 25px;
-        display: flex;
-        flex-direction: column;
+        d
     }
 
     .travel-destiny{
