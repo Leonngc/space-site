@@ -79,7 +79,6 @@ ul li > a:hover{
     }
 
     .menu{
-        display: none;
         position: absolute;
         right: 0;
         width: 80vw;
