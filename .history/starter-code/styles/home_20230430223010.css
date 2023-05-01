@@ -66,6 +66,7 @@ p{
     body{
         background-image: url(../../starter-code/assets/home/background-home-mobile.jpg);
         background-size: cover;
+        background-position: ;
         overflow-x: hidden !important;
     }
  
