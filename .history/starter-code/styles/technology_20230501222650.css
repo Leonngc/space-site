@@ -107,7 +107,7 @@ main img{
 
 @media (max-width: 999px) {
     body{
-        background-image: url(../assets/technology/background-technology-mobile.jpg);
+        background-image: url(../assets/);
     }
     main{
         display: block;
